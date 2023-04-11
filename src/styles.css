@@ -17,7 +17,6 @@
     align-items: center;
     justify-content: center;
     padding: 15px;
-
     background-color: #111;
 }
 
@@ -26,8 +25,7 @@
     background-color: #333;
     border-radius: 10px;
     overflow: hidden;
-    padding: 77px 55px 33px 55px;
-
+    padding: 10px 55px 33px 55px;
     box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -111,8 +109,7 @@
 
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    
+    -moz-transition: all 0.4s;    
 }
 
 .input:focus{
@@ -139,7 +136,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 13px;
+    /* padding-bottom: 13px; */
 }
 
 .login-form-btn{
@@ -169,14 +166,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .txt1{
     font-size: 14px;
     color: #adadad;
     line-height: 1.5;
-    padding-right: 5px;
+    padding-right: 10px;
     text-decoration: none;
 }
 
